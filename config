@@ -326,7 +326,7 @@ deploymentConfigurations:
         url: ldap://RELEASE_NAME-openldap:389/dc=example,dc=org
         userDnPattern: cn={0}
       x509:
-        enabled: false
+        enabled: true
       iap:
         enabled: false
       enabled: true

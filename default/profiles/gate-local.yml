@@ -1,3 +1,8 @@
+default:
+  apiPort: 8085
+  legacyServerPort: 9001
+x509:
+  enabled: true
 server:
   tomcat:
     httpsServerPort: X-Forwarded-Port
